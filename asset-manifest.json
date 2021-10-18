@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/College/static/css/main.915adea0.chunk.css",
+    "main.js": "/College/static/js/main.e9c2dbd6.chunk.js",
+    "main.js.map": "/College/static/js/main.e9c2dbd6.chunk.js.map",
+    "runtime-main.js": "/College/static/js/runtime-main.6421bec9.js",
+    "runtime-main.js.map": "/College/static/js/runtime-main.6421bec9.js.map",
+    "static/js/2.d458fb63.chunk.js": "/College/static/js/2.d458fb63.chunk.js",
+    "static/js/2.d458fb63.chunk.js.map": "/College/static/js/2.d458fb63.chunk.js.map",
+    "static/js/3.a03f6919.chunk.js": "/College/static/js/3.a03f6919.chunk.js",
+    "static/js/3.a03f6919.chunk.js.map": "/College/static/js/3.a03f6919.chunk.js.map",
+    "index.html": "/College/index.html",
+    "static/css/main.915adea0.chunk.css.map": "/College/static/css/main.915adea0.chunk.css.map",
+    "static/js/2.d458fb63.chunk.js.LICENSE.txt": "/College/static/js/2.d458fb63.chunk.js.LICENSE.txt",
+    "static/media/College.9a532159.jpeg": "/College/static/media/College.9a532159.jpeg",
+    "static/media/Institute.94177b83.jpg": "/College/static/media/Institute.94177b83.jpg",
+    "static/media/Logo.f9fe0701.png": "/College/static/media/Logo.f9fe0701.png",
+    "static/media/Pic1.9e2de960.jpg": "/College/static/media/Pic1.9e2de960.jpg",
+    "static/media/Pic2.d961d267.jpg": "/College/static/media/Pic2.d961d267.jpg",
+    "static/media/Pic3.455bf629.jpg": "/College/static/media/Pic3.455bf629.jpg",
+    "static/media/Pic4.e6fbcba3.jpg": "/College/static/media/Pic4.e6fbcba3.jpg",
+    "static/media/Pic5.22655e7e.jpg": "/College/static/media/Pic5.22655e7e.jpg",
+    "static/media/Stock.456ae1b9.jpg": "/College/static/media/Stock.456ae1b9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6421bec9.js",
+    "static/js/2.d458fb63.chunk.js",
+    "static/css/main.915adea0.chunk.css",
+    "static/js/main.e9c2dbd6.chunk.js"
+  ]
+}
