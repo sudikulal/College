@@ -103,13 +103,13 @@ const handlePlacement = ()=>{
        <div className="row align-items-start g-0">
    <div className="col">
    <div className="list-group"> 
-  <a href="/" className="list-group-item list-group-item-action" aria-current="true" >
+  <a href="#" className="list-group-item list-group-item-action" aria-current="true" >
     COMPUTER SCIENCE
   </a>
-  <a href="/" className="list-group-item list-group-item-action">INFORMATION SCIENCE</a>
-  <a href="/" className="list-group-item list-group-item-action">MECHANICAL ENGINEERING</a>
-  <a href="/" className="list-group-item list-group-item-action">CIVIL ENGINEERING</a>
-  <a href="/" className="list-group-item list-group-item-action ">ELECTONIC AND COMMUNICATION</a>
+  <a href="#" className="list-group-item list-group-item-action">INFORMATION SCIENCE</a>
+  <a href="#" className="list-group-item list-group-item-action">MECHANICAL ENGINEERING</a>
+  <a href="#" className="list-group-item list-group-item-action">CIVIL ENGINEERING</a>
+  <a href="#" className="list-group-item list-group-item-action ">ELECTONIC AND COMMUNICATION</a>
    </div>
    </div>
           <div className="col">
