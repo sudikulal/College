@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import './Rowbar.css'
-import Stock from '../Assets/Stock.jpg'
-import College from '../Assets/College.jpeg'
+import College from '../Assets/College.jpg'
 import Institute from '../Assets/Institute.jpg'
 import Pic1 from '../Assets/Pic1.jpg'
 import Pic2 from '../Assets/Pic2.jpg'
@@ -11,11 +10,11 @@ import Pic5 from '../Assets/Pic5.jpg'
 
 export default function Rowbar() {
   const handleHome = ()=>{
-    let newText =<img src={College} className="card-img" alt="College" style={{width: "73rem",height:"390px"}}/>
+    let newText =<img src={College} className="card-img" alt="College" style={{width: "100vw",height:"100vh"}}/>
     setText(newText)
 }
 const handleDeparment = ()=>{
-  let newText =<div className="detail"><h4 style={{color:"lightblue"}}>DEPARTMENT:</h4><ul className="my-3">
+  let newText =<div className="container"><h4 style={{color:"purple"}}>DEPARTMENT:</h4><ul className="my-3">
   <li>CIVIL ENGINEERING</li><li>COMPUTER SCIENCE</li>
            <li>INFORMATION SCIENCE</li>
            <li>MECHANICAL ENGINEERING</li>
@@ -24,7 +23,7 @@ const handleDeparment = ()=>{
   setText(newText)
 }
 const handleFacilities = ()=>{
-  let newText =<div className="detail"><h4 style={{color:"lightBlue"}}>FACILITIES:</h4><ul> 
+  let newText =<div className="container"><h4 style={{color:"purple"}}>FACILITIES:</h4><ul> 
   <li>Sports and Games</li>
   <li>Language Lab</li>
   <li>Seminar Hall</li>
@@ -35,7 +34,7 @@ const handleFacilities = ()=>{
   setText(newText)
 }
 const handleAdmission = ()=>{
-  let newText =<div className="detail"><h4 style={{color:"lightBlue"}}>DOCUMENTS ARE REQUIRED FOR ADMISSION:</h4><p>
+  let newText =<div className="container"><h4 style={{color:"purple"}}>DOCUMENTS ARE REQUIRED FOR ADMISSION:</h4><p>
   10th standard marks card for proof of date of birth - Original + 3 attested photocopies.<br/>
   12th standard/ equivalent marks card - Original + 3 attested photocopies.<br/>
   Transfer certificate from the institution last attended - Original + 3 attested photocopies.<br/>
@@ -46,23 +45,24 @@ const handleAdmission = ()=>{
   CET / Equivalent Rank Card</p></div>
   setText(newText)
 }
+
 const handleGallery = ()=>{
   let newText =<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={Pic2} class="d-block w-100" alt="Pic2"/>
+      <img src={Pic2} class="d-block " style={{width:"100vw",height:"100vh"}} alt="Pic2"/>
     </div>
     <div class="carousel-item">
-      <img src={Pic1} class="d-block w-100" alt="Pic1"/>
+      <img src={Pic1} class="d-block w-100" style={{width:"100vw",height:"100vh"}} alt="Pic1"/>
     </div>
     <div class="carousel-item">
-      <img src={Pic3} class="d-block w-100" alt="Pic5" />
+      <img src={Pic3} class="d-block w-100" style={{width:"100vw",height:"100vh"}} alt="Pic5" />
     </div>
     <div class="carousel-item">
-      <img src={Pic4} class="d-block w-100" alt="Pic4"/>
+      <img src={Pic4} class="d-block w-100" style={{width:"100vw",height:"100vh"}} alt="Pic4"/>
     </div>
     <div class="carousel-item">
-      <img src={Pic5} class="d-block w-100" alt="Pic5"/>
+      <img src={Pic5} class="d-block w-100" style={{width:"100vw",height:"100vh"}} alt="Pic5"/>
     </div>
     
   </div>
@@ -78,7 +78,7 @@ const handleGallery = ()=>{
   setText(newText)
 }
 const handlePlacement = ()=>{
-  let newText =<div className="detail"><h4 style={{color:"lightBlue"}}>PLACEMENT:</h4><ul>
+  let newText =<div className="container"><h4 style={{color:"purple"}}>PLACEMENT:</h4><ul>
     <li>Systematic and continuous placement oriented soft skills training by professional trainers right from first year.</li>
     <li>Excellent infrastructure with separate conference room, interview rooms, GD rooms etc</li>
     <li>Frequent mock interviews to make students industry ready.</li>
@@ -89,7 +89,7 @@ const handlePlacement = ()=>{
   </div>
   setText(newText)
 }
-  const[text,setText]=useState(<img src={Institute} alt="Institute" style={{width: "73rem",height:"390px"}}/>);
+  const[text,setText]=useState(<img src={Institute} alt="Institute" style={{width: "100vw",height:"100vh"}}/>);
     return (
         <div>
            <div className="btn-group">
@@ -100,7 +100,7 @@ const handlePlacement = ()=>{
         <button type="button" className="btn btn-outline-success btn-lg" onClick={handleGallery}>GALLERY</button>
         <button type="button" className="btn btn-outline-success btn-lg" onClick={handlePlacement}>PLACEMENT</button>
        </div>
-       <div className="row align-items-start g-0">
+       {/* <div className="row align-items-start g-0">
    <div className="col">
    <div className="list-group"> 
   <a href="#" className="list-group-item list-group-item-action" aria-current="true" >
@@ -111,20 +111,12 @@ const handlePlacement = ()=>{
   <a href="#" className="list-group-item list-group-item-action">CIVIL ENGINEERING</a>
   <a href="#" className="list-group-item list-group-item-action ">ELECTONIC AND COMMUNICATION</a>
    </div>
-   </div>
-          <div className="col">
-          <div className="card bg-dark text-blue" style={{width: "75rem",height:"425px"}}>
-  <img src={Stock} className="card-img" alt="University" style={{width: "75rem",height:"425px"}}/>
-  <div className="card-img-overlay">
-    <h5 className="card-title" style={{color:"white"}}>{text}</h5>
-    <p className="card-text"></p>
+   </div> */}
+          {/* <div style={{width: "100vw",height:"100vh"}}> */}
+  {/* <img src={Stock} className="card-img" alt="University" style={{width: "100vw",height:"100vh"}}/> */}
+  <div >
+    <h5 style={{color:"black"}}>{text}</h5>
   </div>
-</div>
-          </div>
-  
-</div>
-
-       </div>
-     
+</div>   
     )
 }
